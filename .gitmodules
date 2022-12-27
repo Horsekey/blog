@@ -1,0 +1,4 @@
+[submodule "horsekeys_blog/public"]
+	path = horsekeys_blog/public
+	url = https://github.com/Horsekey/horsekey.github.io.git
+	branch = main
