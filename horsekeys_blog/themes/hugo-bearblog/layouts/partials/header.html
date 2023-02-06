@@ -1,4 +1,7 @@
 <a href="{{ "/" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
+  <div class="header">
+    <img src="/horse.png" alt="logo" width="100px"/>
+    <h1>{{ .Site.Title }}</h1>
+  </div>  
 </a>
 <nav>{{- partial "nav.html" . -}}</nav>
